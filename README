@@ -3,7 +3,7 @@ StringSearch
 Project Description:
 StringSearch is a Java project that creates 10 workers (using threads), where each worker simultaneously (at the same time) searches a (unique) stream of pseudo-random data for the string "Lpfn".
 Each worker informs the the parent thread the elapsed time to find the string, the count of bytes read until the stream was found and the status of the search (SUCCESS, TIMEOUT or FAILURE).
-The program outputs 11 lines of data. The first 10 lines has the information about all the 10 workers and the last line has the avarage of bytes read per millisecond.
+The program outputs 11 lines of data. The first 10 lines has the information about all the 10 workers and the last line has the average of bytes read per millisecond.
 
 Prerequisites:
 Java SE 8 or higher.
